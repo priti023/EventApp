@@ -1,38 +1,36 @@
-.App {
+ .active {
+   background-color: gold;
+   color:Black ;
+   font-weight:bold;
+}
+.crousal{
+  height: 725px;
+}
+.registration {
+  text-align: center;
+  width: 462px;
+  margin-left: 327px;
+}
+.card{
+  align-items: center;
+  align-content: center;
+}
+.login{
+  width: 462px;
+  text-align: center;
+  margin-left: 327px;
+ 
+}
+.login1{
+  text-decoration: underline
+}
+.submitbutton{
+  margin: 20px;
+}
+.textbox{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  border-radius: 48px;
+  border: 2px solid black;
 }
